@@ -1,0 +1,7 @@
+ connect sys as sysdba
+
+then enter password which was set while installing 11g
+
+create user user_name identified by password;
+
+grant all privileges to user_name;
